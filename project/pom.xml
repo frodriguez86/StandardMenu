@@ -32,6 +32,7 @@
             </plugin>
             </plugins>
   </build>
+<<<<<<< HEAD
   <distributionManagement>
 	<!-- use the following if you're not using a snapshot version. -->
 	<repository>
@@ -46,4 +47,21 @@
 	<url>http://nexus.emergya.es/nexus/content/repositories/third-party-snapshot/</url>
 	</snapshotRepository>
 </distributionManagement>
+=======
+  
+  <distributionManagement>
+		<!-- use the following if you're not using a snapshot version. -->
+		<repository>
+			<id>thirdparty.releases</id>
+			<name>Thirdparty Releases Repository</name>
+			<url>http://nexus.emergya.es/nexus/content/repositories/thirdparty/</url>
+		</repository>
+		<!-- use the following if you ARE using a snapshot version. -->
+		<snapshotRepository>
+			<id>third-party.snapshots</id>
+			<name>Thirdparty Snapshot Repository</name>
+			<url>http://nexus.emergya.es/nexus/content/repositories/third-party-snapshot/</url>
+		</snapshotRepository>
+  </distributionManagement>
+>>>>>>> db93f710d75b723c904c142a3b3887d4936a2558
 </project>
